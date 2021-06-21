@@ -1,0 +1,17 @@
+---
+title: "Mathematical Statistics"
+author: "Chun Hsien Wu"
+date: "2021年6月22日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Learning diary
+20210622 Law of total Expectation
+         decomposition of variance
+         (nccu lec)
+
+
