@@ -1,0 +1,36 @@
+---
+title: "Q and A about Rmarkdown"
+author: "Chun Hsien Wu"
+date: "2022年4月17日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### 2021.12.12
+
+1.如何在RStudio Rmarkdown 產生html 中若資料檔太大 可用捲軸方式呈現？
+
+2.寫作Bookdown中 如何在畫面 左右兩邊都呈現 導引列 左為大的目錄列 右為每一章的各個小節列
+
+#### 2021.12.17
+1.如何在Rmarkdown R程式執行結果 如果是計算迭代次數太多 會增加 html頁面的長度,在Rmarkdown Cook Book 12.3 中 12.3 Scrollable text output 應該要認真研究一下
+
+2.Higgins 在Coursera Reproducible Research and dissemination中 bookdown 的技巧 學起來
+	這樣自己在文章寫作以及程式撰寫的紀錄上 會比較詳實
+	
+#### 2021.12.30
+忘記了 Rmarkdown 中程式結果的輸出檔如果很長 在html 中如何以捲軸方式來處理的語法
+
+{r,attr.output='style="max-height: 100px;"'}
+	
+#### 2022.01.04
+忘了紀錄 Rookdown 要出現 website 在 Github中 就在 Retemplate 的資料夾中 建立 /docs 
+	
+這樣就可以在WWW中看到 自己所建設的學習網頁
+
+#### 2022.02.24
+Question : 在 R中 如何清理螢幕
+Answer :	Ctrl + L 就可以完成
