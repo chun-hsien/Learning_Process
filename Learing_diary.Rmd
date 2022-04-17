@@ -1,0 +1,44 @@
+---
+title: "Learning_diary"
+author: "Chun Hsien Wu"
+date: "2022年4月17日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+####2021.12.20(Monday)
+Measuring what matters 學習 有關 RSM 與 PCM 模式比較 採用TAM packages
+	#想起 coursera's unix workbench 無聊或浪費時間時 應該多加練習 有益無害
+	# reproducible research 有關bookdown的學習會讓研究工作(IRT statistics financial treatment)
+
+#### 2021.12.22 (Wednesday)
+	發現 HIRT R package 
+	Implementation of a class of hierarchical item response theory (IRT) models where both the mean
+	and the variance of latent preferences (ability parameters) may depend on observed covariates.
+	The current implementation includes both the two-parameter latent trait model for binary data 
+	and the graded response model for ordinal data. Both are fitted via the Expectation-Maximization
+	(EM) algorithm. Asymptotic standard errors are derived from the observed information matrix.
+	# In hirt r package, the codes were completely R codes, without using Rcpp
+	# So, I can learn EM algorithm used to implement item response model's parameters estimation.
+
+	學習R package dplyr 各個 function 的用法 50minutes
+	@@ youtube 混時間 發現 楊睿中《機器學習與經濟計量》有logistic regression, random forest
+
+#### 2021.12. 23(Thursday)
+#### 2021.12.24 (Friday)
+	statisticsmatt bivariate normal and conditional probability 還在熟悉當中
+	練習使用Rbookdown bs4 theme  目前還沒有成功
+#### 2022.01.04
+	忘了紀錄 Rookdown 要出現 website 在 Github中 就在 Retemplate 的資料夾中 建立 /docs 
+	這樣 就可以在WWW中看到 自己所建設的學習網頁
+
+#### 2022.01.23
+	在清華雲 網站上看到一門課 科學論文解密 屬於自學課程 全英語授課 教授如何在以英文發表期刊作品
+	值得我好好借鏡學習 因為 到目前為止 我都還沒有用英文在國內外發表期刊 如果循序漸進 採用 Rstudio 
+	and Rmarkdown 做論文寫作 應該可以慢慢的 倒吃甘蔗
+
+#### 2022.01.24
+	
